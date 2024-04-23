@@ -5,6 +5,7 @@ import { Snippet } from "@nextui-org/react";
 import { Image } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import Footer from "./components/Footer.jsx";
+import UserTest from "./components/User.jsx";
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
             <span>pnpm add $ShitCoinProject</span>
           </Snippet>
         </div>
+        <UserTest />
       </main>
       <Footer />
     </div>
