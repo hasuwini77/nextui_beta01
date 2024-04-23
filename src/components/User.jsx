@@ -5,8 +5,8 @@ export default function UserTest() {
   return (
     <>
       <p className="text-center text-xl mt-3"> Meet our team </p>
-      <div className="flex flex-row justify-center p-4 m-3">
-        <div className="p-4">
+      <div className="flex flex-row justify-center px-4 m-3">
+        <div className="px-4 py-3 hover:bg-red-500">
           <User
             name="Jane Doe"
             description="Product Designer"
@@ -15,7 +15,7 @@ export default function UserTest() {
             }}
           />
         </div>
-        <div className="p-4">
+        <div className="px-4 py-3">
           <User
             name="Jane Doe"
             description="Product Designer"
@@ -24,7 +24,7 @@ export default function UserTest() {
             }}
           />
         </div>{" "}
-        <div className="p-4">
+        <div className="px-4 py-3 ">
           <User
             name="Jane Doe"
             description="Product Designer"

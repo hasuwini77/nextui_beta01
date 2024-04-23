@@ -6,6 +6,7 @@ import { Image } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import Footer from "./components/Footer.jsx";
 import UserTest from "./components/User.jsx";
+import "tailwindcss/tailwind.css";
 
 export default function App() {
   return (
